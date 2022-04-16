@@ -1,0 +1,136 @@
+.front-img {
+    /* background: url('../images/harishchadragad.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;  
+    height: 70vh;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+  }
+
+.history
+    {
+        flex-grow: 1;
+    }
+
+.his-h1 {
+    border: 3px solid rgb(212, 178, 25);
+    background-color: rgb(243, 241, 234);
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding-right: 1250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    /* border: 3px solid rgb(31, 190, 52);
+    color: blue;  */
+}
+
+.his-article {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    line-height: 200%;
+}
+
+.trek-info{
+    border: 1px solid rgb(252, 251, 251);
+        background-color: rgb(253, 252, 251);
+        padding-top: 50px;
+        padding-right: 700px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+        line-height: 200%;
+}
+
+.his-img{
+    margin-right: 10px;
+}
+/* .trek-info > h1  {
+    border: 3px solid rgb(212, 178, 25);
+    background-color: rgb(243, 241, 234);
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding-right: 1250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+} */
+
+.trek-overview > h1{
+    border: 3px solid rgb(212, 178, 25);
+    background-color: rgb(243, 241, 234);
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.trek-carry > h1{
+    border: 3px solid rgb(212, 178, 25);
+    background-color: rgb(243, 241, 234);
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.trek-explore > h1{
+    border: 3px solid rgb(212, 178, 25);
+    background-color: rgb(243, 241, 234);
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.trek-package > h1{
+    border: 3px solid rgb(212, 178, 25);
+    background-color: rgb(243, 241, 234);
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.trek-escapades > h1{
+    border: 3px solid rgb(212, 178, 25);
+    background-color: rgb(243, 241, 234);
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+/* .map-img {
+    padding-top: 50px;
+    padding-right:10x;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    position: relative;
+    margin: 50px 0 45px;
+} */
+
+.his-map{
+    display: grid;
+    /* font-size: 24px; */
+    grid-template-columns: 1fr 1fr;
+}
+
+.his-map >div{
+    margin-bottom: 25px;
+}
